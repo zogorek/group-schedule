@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".HomeActivity$PlaceholderFragment"
+    android:background="@color/background_white">
+
+    <RelativeLayout
+        android:id="@+id/registrationFieldsRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <EditText
+            android:id="@+id/registrationUsernameField"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/registration_username_hint"
+            android:inputType="text"
+            android:maxLength="32"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="#000"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/registrationEmailField"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/registration_email_hint"
+            android:inputType="textEmailAddress"
+            android:maxLength="32"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="#000"
+            android:layout_below="@+id/registrationUsernameField"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/registrationPassword1Field"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/registration_password_hint"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="#000"
+            android:layout_below="@+id/registrationEmailField"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/registrationPassword2Field"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/registration_second_password_hint"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="#000"
+            android:layout_below="@+id/registrationPassword1Field"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/registerUserButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/register_acc_label"
+        android:layout_below="@+id/registrationFieldsRelative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="login_button_color">#60C085</color>
+    <color name="registration_button_color">#E64A4A</color>
+
+    <!-- Borders, lines, rows and background with content -->
+    <color name="background_white">#FFFFFF</color>
+
+
+    <color name="border">#d8dbdd</color>
+    <color name="background_outside_content">#f5faff</color>
+    <color name="background_content">#FFFFFF</color>
+    <color name="background_toolbar">#FFFFFF</color>
+    <color name="list_selector_white">#FFFFFF</color>
+    <color name="background_sidebar">#111</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay_20">#33000000</color>
+    <color name="black_overlay_40">#66000000</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ff6600</color>
+    <color name="red">#ff0000</color>
+    <color name="sc_waveform_bg">#ff933c</color>
+    <color name="sc_waveform_progress">#ff6600</color>
+    <color name="txt_edit_color">#6a6a71</color>
+    <color name="txt_main_color">#202022</color>
+    <color name="txt_sub_color">#c2c6cb</color>
+    <color name="list_sidebar_item_title">#fff</color>
+    <color name="list_sidebar_background_pressed">#ff5500</color>
+    <color name="list_sidebar_background">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="btn_blue">#1997ec</color>
+    <color name="btn_green">#0f0</color>
+    <color name="btn_red">#f00</color>
+    <color name="btn_green_toolbar">#60C085</color>
+
+    <!-- Home screen activity -->
+
+    <color name="fb_button_color">#1f61aa</color>
+    <color name="twitter_button_color">#00aced</color>
+    <color name="create_acc_button_color">#1896EB</color>
+    <color name="sign_in_button_color">#60C085</color>
+    <color name="reclaim_password_button_color">#E64A4A</color>
+
+
+
+    <!-- Toast layout -->
+    <color name="toast_text">#000000</color>
+
+    <!-- Popups -->
+    <color name="popup_title">#000000</color>
+    <color name="popup_sub_title">#4f4f4f</color>
+    <color name="popup_yes">#4f4f4f</color>
+    <color name="popup_no">#4f4f4f</color>
+    <color name="popup_send">#4f4f4f</color>
+
+    <!-- Settings headers -->
+    <color name="settings_header">#a5a5a5</color>
+    <color name="settings_second_txt">#a5a5a5</color>
+
+    <!-- Publish post -->
+    <color name="publish_post_texts">#a5a5a5</color>
+
+    <!-- No feed texts -->
+    <color name="no_feed_text1">#000000</color>
+    <color name="no_feed_text2">#4f4f4f</color>
+
+    <!-- registration lines -->
+    <color name="selected_line">#fd872a</color>
+    <color name="selected_line_wrong">#ff0000</color>
+    <color name="unSelected_line">#e0e1e2</color>
+    <color name="registration_actionbar_title">#464749</color>
+    <color name="registration_add_profile_photo_text_color">#CDCFD4</color>
+
+    <!-- Edit Profile texts -->
+    <color name="edit_profile_add_profile_photo_text_color">#CDCFD4</color>
+
+    <!-- floating action button -->
+
+
+    <!-- http://www.google.com/design/spec/style/color.html#color-ui-color-palette -->
+    <color name="material_blue_500">#5677fc</color>
+    <color name="material_blue_600">#4e6cef</color>
+
+</resources>

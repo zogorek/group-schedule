@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GroupScheduleapp</string>
+
+    <!-- Labels -->
+    <string name="login_label">Login</string>
+    <string name="registration_label">Registration</string>
+    <string name="register_acc_label">Register</string>
+    <string name="logout_label">Logout</string>
+    <string name="list_of_events_label">List of events</string>
+    <string name="list_of_groups_label">List of groups</string>
+    <string name="menu_label">Menu</string>
+    <string name="add_or_edit_event_label">Add/edit event</string>
+    <string name="title_label">Title</string>
+    <string name="date_label">Date</string>
+    <string name="group_name_label">Group Name</string>
+    <string name="add_label">Add</string>
+    <string name="add_group_label">Add group</string>
+    <string name="description_label">Description</string>
+
+    <!-- Hints -->
+    <string name="username_hint">Username or email</string>
+    <string name="password_hint">Password</string>
+    <string name="registration_username_hint">Username</string>
+    <string name="registration_email_hint">Email</string>
+    <string name="registration_password_hint">Password</string>
+    <string name="registration_second_password_hint">Retype Password</string>
+
+</resources>

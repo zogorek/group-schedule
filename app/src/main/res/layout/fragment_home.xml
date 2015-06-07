@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity$PlaceholderFragment"
+    android:background="@color/background_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+     <Button
+         android:id="@+id/loginButton"
+         android:layout_width="@dimen/button_width"
+         android:layout_height="@dimen/button_height"
+         android:gravity="center"
+         android:text="@string/login_label"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="10dp"
+         android:onClick="onClickLoginButton"/>
+
+    <Button
+        android:id="@+id/registrationButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/registration_label"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickRegistrationButton"/>
+
+    </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/maincontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</RelativeLayout>
