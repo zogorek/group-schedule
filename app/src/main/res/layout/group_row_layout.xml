@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Add new"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/group_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="group"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:textSize="14sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

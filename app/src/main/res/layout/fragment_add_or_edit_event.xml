@@ -46,7 +46,7 @@
             android:layout_height="@dimen/button_height"
             android:layout_gravity="center_vertical"
             android:layout_centerHorizontal="true"
-            android:hint="Opis"
+            android:hint="Description"
             android:inputType="text"
             android:maxLength="32"
             android:singleLine="true"
