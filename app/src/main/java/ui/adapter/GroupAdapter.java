@@ -16,25 +16,25 @@ import ui.model.Group;
 
 public class GroupAdapter extends ArrayAdapter<Group> {
 
-    private List<Group> planetList;
+    private List<Group> groupList;
     private Context context;
 
-    public GroupAdapter(List<Group> planetList, Context ctx) {
-        super(ctx, R.layout.group_row_layout, planetList);
-        this.planetList = planetList;
+    public GroupAdapter(List<Group> groupList, Context ctx) {
+        super(ctx, R.layout.group_row_layout, groupList);
+        this.groupList = groupList;
         this.context = ctx;
     }
 
     public int getCount() {
-        return planetList.size();
+        return groupList.size();
     }
 
     public Group getItem(int position) {
-        return planetList.get(position);
+        return groupList.get(position);
     }
 
     public long getItemId(int position) {
-        return planetList.get(position).hashCode();
+        return groupList.get(position).hashCode();
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -58,7 +58,7 @@ public class GroupAdapter extends ArrayAdapter<Group> {
         else
             holder = (GroupHolder) v.getTag();
 
-        Group p = planetList.get(position);
+        Group p = groupList.get(position);
         holder.groupName.setText(p.getName());
         holder.groupDescription.setText("" + p.getDescription());
 

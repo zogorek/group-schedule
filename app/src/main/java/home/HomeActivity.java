@@ -20,7 +20,6 @@ import android.os.Build;
 
 import com.groupscheduleapp.groupscheduleapp.R;
 
-
 public class HomeActivity extends ActionBarActivity {
 
     private static final String TAG = HomeActivity.class.getName();

@@ -13,7 +13,7 @@
     <RelativeLayout
         android:id="@+id/groupListRelative"
         android:layout_width="match_parent"
-        android:layout_height="54dp">
+        android:layout_height="@dimen/button_height">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -43,7 +43,7 @@
     <RelativeLayout
         android:id="@+id/addRelative"
         android:layout_width="match_parent"
-        android:layout_height="54dp">
+        android:layout_height="@dimen/button_height">
 
         <RelativeLayout
             android:layout_width="match_parent"

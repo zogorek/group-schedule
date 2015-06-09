@@ -11,12 +11,16 @@ import android.widget.Button;
 
 import com.groupscheduleapp.groupscheduleapp.R;
 
+import home.HomeActivity;
+import ui.activity.MainActivity;
+
 public class MenuFragment extends Fragment {
 
     private static final String TAG = MenuFragment.class.getName();
 
     private Button groupListButton;
     private Button eventListButton;
+    private Button buttonLogout;
 
     public MenuFragment() {
     }
@@ -28,6 +32,7 @@ public class MenuFragment extends Fragment {
 
         groupListButton = (Button) rootView.findViewById(R.id.groupListButton);
         eventListButton = (Button) rootView.findViewById(R.id.eventsListButton);
+        buttonLogout = (Button) rootView.findViewById(R.id.buttonLogout);
 
         addListeners();
 
@@ -70,6 +75,16 @@ public class MenuFragment extends Fragment {
                         .addToBackStack(TAG)
                         .commit();
 
+            }
+        });
+
+        buttonLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().finish();
+
+                Intent intent = new Intent(getActivity(), HomeActivity.class);
+                getActivity().startActivity(intent);
             }
         });
 

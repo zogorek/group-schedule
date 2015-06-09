@@ -7,18 +7,27 @@
         android:id="@+id/nameField"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:singleLine="true"
         android:layout_centerHorizontal="true"
-        android:hint="Group Name"/>
+        android:singleLine="true"
+        android:hint="Event Name"/>
 
     <EditText
         android:id="@+id/descriptionField"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:singleLine="true"
         android:layout_below="@+id/nameField"
+        android:singleLine="true"
         android:layout_centerHorizontal="true"
         android:hint="Description"/>
+
+    <EditText
+        android:id="@+id/dateField"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/descriptionField"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:hint="dd-mm-yyyy"/>
 
     <Button
         android:id="@+id/declineButton"
@@ -28,6 +37,6 @@
         android:layout_marginTop="5dp"
         android:layout_marginRight="5dp"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/descriptionField" />
+        android:layout_below="@+id/dateField" />
 
 </RelativeLayout>
